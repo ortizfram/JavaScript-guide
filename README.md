@@ -18,3 +18,25 @@ const wrapper = document.querySelector(".slider-wrapper")
 
 console.log(wrapper)
 ```
+## ..Funtions
+#_background color
+
+`style`.`backgroudColor`
+```
+wrapper.style.backgroundColor="red"
+```
+#_change position
+`transform`
+```
+wrapper.style.transform = "translateX(-100vw)"
+```
+#_ when click slide
+```
+const menuItems = document.querySelectorAll(".menuItem");
+
+menuItems.forEach(item,index)=>{
+    item.addEventListener("click", ()=>{
+        wrapper.style.transform = `translateX(${-100vw * index}vw)`;
+    })
+}
+```
