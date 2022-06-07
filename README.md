@@ -12,4 +12,9 @@ console.log("hello this s js")
 ```
 --you can see it in CONSOLE DEV TOOLS
 ## ..Selecting items
+`const` item = document.querySelector("alias")
+```
+const wrapper = document.querySelector(".slider-wrapper")
 
+console.log(wrapper)
+```
