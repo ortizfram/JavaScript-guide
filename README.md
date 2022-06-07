@@ -33,6 +33,7 @@ wrapper.style.transform = "translateX(-100vw)"
 #_ when click slide
  `querySelectorAll` `forEach(item, index)`
 ```
+const wrapper = document.querySelector(".slider-wrapper");
 const menuItems = document.querySelectorAll(".menu-item");
 
 menuItems.forEach((item,index) => {
